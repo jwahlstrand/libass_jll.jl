@@ -28,14 +28,18 @@ const libass = "libass.so.9"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"libass")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (FreeType2_jll.PATH_list, FriBidi_jll.PATH_list, Bzip2_jll.PATH_list, Zlib_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (FreeType2_jll.LIBPATH_list, FriBidi_jll.LIBPATH_list, Bzip2_jll.LIBPATH_list, Zlib_jll.LIBPATH_list,))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
+    # then append them to our own.
+    foreach(p -> append!(PATH_list, p), (FreeType2_jll.PATH_list, FriBidi_jll.PATH_list, Bzip2_jll.PATH_list, Zlib_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (FreeType2_jll.LIBPATH_list, FriBidi_jll.LIBPATH_list, Bzip2_jll.LIBPATH_list, Zlib_jll.LIBPATH_list,))
 
-    global libass_path = abspath(joinpath(artifact"libass", libass_splitpath...))
+    global libass_path = normpath(joinpath(artifact_dir, libass_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
