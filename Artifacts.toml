@@ -1,113 +1,113 @@
 [[libass]]
 arch = "i686"
-git-tree-sha1 = "f3a2afec9faf0dd215159cd7d255e79c0fc72de9"
+git-tree-sha1 = "c0ffcd54a2112035024fa815a605109c35a2fa35"
 libc = "musl"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "d8cf66d81c9cc8f7441eb35cddb1866934fdd7d0059b1496fa684f9693e35d12"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.i686-linux-musl.tar.gz"
+    sha256 = "f01eb4f109f50f0eadb32deec5a215e700049e6fab37a023c715dce63e8c0f93"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.i686-linux-musl.tar.gz"
 [[libass]]
 arch = "aarch64"
-git-tree-sha1 = "7b576bc40f5bebf219988e1a009a968be8bf4767"
+git-tree-sha1 = "61456901490abff6eb6982974a9e88e090f859d3"
 libc = "musl"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "c032b00db34df17607e9a48c86ed081c95eb818f7d98c9c5acb983c4e62ca59a"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.aarch64-linux-musl.tar.gz"
+    sha256 = "0eec3b73e2beb526d2b0b628c91b525ee70475646d85198630bc33f82e844bff"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.aarch64-linux-musl.tar.gz"
 [[libass]]
 arch = "i686"
-git-tree-sha1 = "f0daf2a55d908983815bcf5c63b9d7f437d4b481"
+git-tree-sha1 = "480e0738bc11989aab84c22820aec16dcbb32e6c"
 os = "windows"
 
     [[libass.download]]
-    sha256 = "510d54520b3773f73d8d13cd4df762afdad7c9232c987da8c3b85661ced5b7fa"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.i686-w64-mingw32.tar.gz"
+    sha256 = "2e96ab5857e4ff60561ef9243c92011d37c2b1c97be2f5332796a85a28ede79f"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.i686-w64-mingw32.tar.gz"
 [[libass]]
 arch = "x86_64"
-git-tree-sha1 = "b306fd3c360857c5c223cef0f76377ab2bdfaddf"
+git-tree-sha1 = "71ec03fac21377f82808c5e8784eb757cf8e1eaa"
 os = "windows"
 
     [[libass.download]]
-    sha256 = "58ff33a43e05e092a44f8eff93970f1d29935bffb7f33e46b0055b0ac1cb0b9b"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "c2b9b70fc3534d9671873778ba481079066df98389505a8277aecf778d7afaa8"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.x86_64-w64-mingw32.tar.gz"
 [[libass]]
 arch = "armv7l"
-git-tree-sha1 = "07742afc4076945d3a831e190305cb236b3b7748"
+git-tree-sha1 = "37189bf8405dd4d47b2b1cf3bd317a54799301e8"
 libc = "glibc"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "49072851665c5c79885191ea60d92475e057dd832f98aa2b3359543be4bd51a8"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "abe58d84ffe3f0678b930f6a5c8a7774edf35fe4a0e9e8c7122829d7b67b0b2c"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.armv7l-linux-gnueabihf.tar.gz"
 [[libass]]
 arch = "armv7l"
-git-tree-sha1 = "b5ef328dec08532de1d51105ac6cb763d517be0e"
+git-tree-sha1 = "3bdc4cbc956e7557b44bb13133f5f279774fcefd"
 libc = "musl"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "0920bed7eae6284b70d277b767ab479591ee3acaa457c6e37ee14b17f96aac71"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "5e808edee839d33b2a8340157225d6ae8ed49a1e709dc5f0046197976d0bb082"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.armv7l-linux-musleabihf.tar.gz"
 [[libass]]
 arch = "i686"
-git-tree-sha1 = "6200c1e4a18d4dd7f737341631e79719568497ab"
+git-tree-sha1 = "2b211a4c4f4b9dacb7340a621e8714f8d3cf1bc3"
 libc = "glibc"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "c7758d05f1315c0f3a391f6ef9da3a5e948f21212e148c1d3d9cac99b62173de"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.i686-linux-gnu.tar.gz"
+    sha256 = "7402ce707c24066b12df2dc8ba161d7a0ea7ee91ac4392d7183b72ce8a5ac7f4"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.i686-linux-gnu.tar.gz"
 [[libass]]
 arch = "x86_64"
-git-tree-sha1 = "b82bbd5825ef933e18b8e7d89c2e056307800159"
+git-tree-sha1 = "9dc820aa11732195fab75ed545a0705dca8ee456"
 libc = "glibc"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "9c88695101f8e979869de465de9763ad77fc00b0d7b02e8d5832af1aa7c4d64b"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "f36b32351ec9de8083403d3463489ac524f94261d2c3f90b114fb212cee2f895"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.x86_64-linux-gnu.tar.gz"
 [[libass]]
 arch = "powerpc64le"
-git-tree-sha1 = "927f864f89085c93605b41f9a6f75751da183f47"
+git-tree-sha1 = "931a864fb18e50c32237a2aad9dbffb86e441b01"
 libc = "glibc"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "4d1f458975365abe1bdeef7a45efac791fbc91de68ca6544fdd896c3c2145f6b"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "234e15962f0f62cbbd9813e374495d05ec643ce2afe832746e6797a69bfd53be"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.powerpc64le-linux-gnu.tar.gz"
 [[libass]]
 arch = "x86_64"
-git-tree-sha1 = "a6d3ce86d902a885e1e092882cb0ddb718aade03"
+git-tree-sha1 = "34970354470efa0ab8a80c455d13a16caec8cc7c"
 os = "macos"
 
     [[libass.download]]
-    sha256 = "fbef12a20746cf4562acbd6cb65068066eafc535e464db3239dbaffba3d2db10"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "88e1b8c8adad84850e62849c7197c402f974f82a5be2593c806fca356ece9004"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.x86_64-apple-darwin14.tar.gz"
 [[libass]]
 arch = "aarch64"
-git-tree-sha1 = "c0fadc6c5eb6f99d814a223e7619cc1833740db0"
+git-tree-sha1 = "573354020c5fc8fd2bcf91b4ed27f7c42da715a0"
 libc = "glibc"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "72bd939483ff319a5a16f01beef0ecabeab180bbf6746fb4f44d45655f73e0f4"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "597610b5f012256574afaccb6fe26b4b6b7c330eec89960915054f9a79b8a898"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.aarch64-linux-gnu.tar.gz"
 [[libass]]
 arch = "x86_64"
-git-tree-sha1 = "0400aeee82d538922624ecf24301398bf43b70db"
+git-tree-sha1 = "0b91618bee61379a5666d4607acf91d80c9f1fdb"
 os = "freebsd"
 
     [[libass.download]]
-    sha256 = "1be962b12a158c6f49679f51b50b04cf277f53b580c488233d14a0244adf0a57"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "a4ea55c75f178547d6e55c997ba6456b67a9150ddea1aea269e9a0faa79fc625"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.x86_64-unknown-freebsd11.1.tar.gz"
 [[libass]]
 arch = "x86_64"
-git-tree-sha1 = "7e8afbc9faa0bf606ff4257b1078e7eaa23ed103"
+git-tree-sha1 = "5724c81816d109fdeacaf2d0c2068c4d49276685"
 libc = "musl"
 os = "linux"
 
     [[libass.download]]
-    sha256 = "1f205dcb305499f3c335c21076cf6b33885f286f14f279a233b845b835f55525"
-    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+1/libass.v0.14.0.x86_64-linux-musl.tar.gz"
+    sha256 = "c3b33229e3555e4ce3c81cfc6cfe61812fea27e747050718e0388195f2b93c83"
+    url = "https://github.com/JuliaBinaryWrappers/libass_jll.jl/releases/download/libass-v0.14.0+2/libass.v0.14.0.x86_64-linux-musl.tar.gz"

@@ -9,6 +9,7 @@ using Zlib_jll
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "LD_LIBRARY_PATH"
+LIBPATH_default = ""
 
 # Relative path to `libass`
 const libass_splitpath = ["lib", "libass.so"]

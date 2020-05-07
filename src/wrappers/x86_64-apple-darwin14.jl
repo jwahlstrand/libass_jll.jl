@@ -9,6 +9,7 @@ using Zlib_jll
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
+LIBPATH_default = "~/lib:/usr/local/lib:/lib:/usr/lib"
 
 # Relative path to `libass`
 const libass_splitpath = ["lib", "libass.9.dylib"]
